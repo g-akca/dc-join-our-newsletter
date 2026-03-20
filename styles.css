@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #6C727F;
+  padding: 24px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+  background-color: #F9FAFB;
+}
+
+#heading-section {
+  padding-inline: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+h1 {
+  color: #000000;
+  font-weight: 600;
+}
+
+#form-wrapper {
+  background-color: white;
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+#form-wrapper p {
+  font-size: 14px;
+  color: #394150;
+  margin-top: 24px;
+}
+
+#form-wrapper input, #form-wrapper button {
+  width: 100%;
+  border-radius: 12px;
+  height: 56px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+#form-wrapper input {
+  background-color: #F9FAFB;
+  margin-bottom: 24px;
+  border: 1px solid #E5E7EB;
+  text-align: center;
+  font-weight: 500;
+}
+
+#form-wrapper input::placeholder {
+  color: #394150;
+}
+
+#form-wrapper input:focus {
+  outline: none;
+}
+
+#form-wrapper button {
+  background-color: #284BCE;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
