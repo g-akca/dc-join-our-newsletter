@@ -49,7 +49,7 @@ h1 {
 #form-wrapper input, #form-wrapper button {
   width: 100%;
   border-radius: 12px;
-  height: 56px;
+  height: 58px;
   font-size: 16px;
   font-family: inherit;
 }
@@ -75,4 +75,27 @@ h1 {
   color: white;
   border: none;
   font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+
+  #heading-section {
+    max-width: 730px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  #form-wrapper {
+    max-width: 550px;
+    border-radius: 16px;
+  }
+
+  #form-wrapper p {
+    text-align: center;
+  }
 }
